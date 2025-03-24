@@ -3,7 +3,7 @@ requires = ["setuptools"]
 
 [project]
 name = "aiorisk"
-version = "0.1.1"
+version = "0.1.2.dev0"
 authors = [
     {name = "Evgeny (Krymmy) Momotov", email = "evgeny.momotov@gmail.com"},
 ]
@@ -34,4 +34,5 @@ Repository = "https://github.com/KrymmyEM/AioRisk/"
 Download="https://github.com/KrymmyEM/tbank_kassa_api/archive/master.zip"
 
 [tool.setuptools]
-packages = ["aiorisk"]
+packages = { find = { where = ["ariorisk"] } }
+package-dir = {"" = "ariorisk"}
