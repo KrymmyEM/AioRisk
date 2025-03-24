@@ -56,9 +56,3 @@ class EventDispatcher:
                         pass
             except websockets.exceptions.ConnectionClosed as e:
                 raise e
-
-
-if __name__ == "__main__":
-    dispatcher = EventDispatcher()
-    websocket_uri = "ws://localhost:8765"
-    asyncio.run(dispatcher.run(websocket_uri))
