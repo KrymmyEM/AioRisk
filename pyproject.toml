@@ -8,7 +8,6 @@ authors = [
     {name = "Evgeny (Krymmy) Momotov", email = "evgeny.momotov@gmail.com"},
 ]
 readme = "README.md"
-description = "AioRisk - Async Asterisk Python API Wrapper"
 dependencies = [
     "aiohttp>=3.11.5",
     "websockets>=15.0",
