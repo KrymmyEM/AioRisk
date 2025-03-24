@@ -34,5 +34,5 @@ Repository = "https://github.com/KrymmyEM/AioRisk/"
 Download="https://github.com/KrymmyEM/tbank_kassa_api/archive/master.zip"
 
 [tool.setuptools]
-packages = { find = { where = ["ariorisk"] } }
-package-dir = {"" = "ariorisk"}
+packages = { find = { where = ["aiorisk"] } }
+package-dir = {"" = "aiorisk"}
