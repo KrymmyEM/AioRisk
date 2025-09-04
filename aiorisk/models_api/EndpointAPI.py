@@ -46,7 +46,7 @@ class EndpointAPI(ResourceAPI):
                         data[key] = optionals[key]['default']
                     continue
                 if not isinstance(value, optionals[key]['data_type']):
-                    raise TypeError(f'{key} must be {optionals[key]['data_type']}')
+                    raise TypeError(f"{key} must be {optionals[key]['data_type']}")
                 if optionals[key]['data_type'] is bool:
                     value = str(value).lower()
                 data[key] = value
@@ -95,7 +95,7 @@ class EndpointAPI(ResourceAPI):
                         data[key] = optionals[key]['default']
                     continue
                 if not isinstance(value, optionals[key]['data_type']):
-                    raise TypeError(f'{key} must be {optionals[key]['data_type']}')
+                    raise TypeError(f"{key} must be {optionals[key]['data_type']}")
                 if optionals[key]['data_type'] is bool:
                     value = str(value).lower()
                 data[key] = value
@@ -192,7 +192,7 @@ class EndpointAPI(ResourceAPI):
                         data[key] = optionals[key]['default']
                     continue
                 if not isinstance(value, optionals[key]['data_type']):
-                    raise TypeError(f'{key} must be {optionals[key]['data_type']}')
+                    raise TypeError(f"{key} must be {optionals[key]['data_type']}")
                 if optionals[key]['data_type'] is bool:
                     value = str(value).lower()
                 data[key] = value
@@ -245,7 +245,7 @@ class EndpointAPI(ResourceAPI):
                         data[key] = optionals[key]['default']
                     continue
                 if not isinstance(value, optionals[key]['data_type']):
-                    raise TypeError(f'{key} must be {optionals[key]['data_type']}')
+                    raise TypeError(f"{key} must be {optionals[key]['data_type']}")
                 if optionals[key]['data_type'] is bool:
                     value = str(value).lower()
                 data[key] = value
